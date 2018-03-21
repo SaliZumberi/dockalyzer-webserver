@@ -1,12 +1,10 @@
 package ch.uzh.seals.dockalyzerwebserver.controller;
 
+
 import ch.uzh.ifi.seal.dockalyzer.App;
 import ch.uzh.ifi.seal.dockalyzer.models.Project;
 import ch.uzh.seals.dockalyzerwebserver.domain.ProjectDTO;
 import ch.uzh.seals.dockalyzerwebserver.service.ProjectService;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectReader;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
